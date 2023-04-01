@@ -28,7 +28,6 @@ function Button({text, defaultClass, mouseEnterClass, mouseExitClass, mouseDownC
     function onMouseLeave() {
         setHover(false);
     }
-    let a = !selected || !mouseDown;
     let buttonClass = (!defaultClass ? 'btn' : defaultClass) + " " + (selected || mouseDown ? mouseDownClass : (hover ? mouseEnterClass : mouseExitClass));
     return (
         <button 
