@@ -37,7 +37,7 @@ function Ratings({points, nextAction, setPoints}: ratingsProps) {
               })
             }
           </div>
-          <Button text='Submit' defaultClass={styles.submitButton} onMouseDown={() => {setSubmitted(true); nextAction()}} mouseEnterClass={styles.submitBtnHover} mouseExitClass={styles.pointBtnActive} mouseDownClass={styles.submitBtnInactive} selected={submitted}/>
+          <Button text='S U B M I T' defaultClass={styles.submitButton} onMouseDown={() => {setSubmitted(true); nextAction()}} mouseEnterClass={styles.submitBtnHover} mouseExitClass={styles.pointBtnActive} mouseDownClass={styles.submitBtnInactive} selected={submitted}/>
         </div>
     )
 }
