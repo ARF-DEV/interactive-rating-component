@@ -1,0 +1,76 @@
+.container {
+  background-color:hsl(213, 19%, 18%);
+  width: 350px;
+  height: 350px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.pointsHighlight {
+  background-color: hsl(215, 16%, 21%);;
+  color: hsl(25, 97%, 53%);
+  padding: 8px 15px;
+  border-radius: 100px;
+  margin: 10px;
+}
+.logoContainer {
+  justify-content: center;
+  align-items: center;
+
+  margin: 15px;
+}
+.titleText{
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+.normalText {
+  color: hsl(216, 12%, 54%);
+  font-weight: 400;
+  text-align: center;
+}
+.pointBtnInactive {
+  background-color: hsl(217, 16%, 22%);
+  color: hsl(216, 12%, 54%);
+}
+
+.pointBtnActive {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+.pointBtnHover {
+  background-color: hsl(217, 17%, 37%);
+  color: hsl(0, 0%, 100%);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  margin-top: 20px;
+}
+
+.submitBtnInactive {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.submitBtnHover {
+  background-color: hsl(25, 100%, 66%);
+  color: white;
+}
+
+.submitButton {
+  border: none;
+  border-radius: 100px;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 10px;
+  width: 100%;
+}

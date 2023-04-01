@@ -1,0 +1,70 @@
+.container {
+    background-color:hsl(213, 19%, 18%);
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logoContainer {
+    /* border: solid 1px hsl(0, 0%, 100%); */
+    padding: 10px;
+    border-radius: 50%;
+    background-color:hsl(217, 16%, 22%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    padding: 15px;
+  }
+  .titleText{
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    margin: 0 0 15px 0;
+    font-weight: 700;
+  }
+  .normalText {
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+  }
+  .pointBtnInactive {
+    background-color: hsl(217, 16%, 22%);
+    color: hsl(216, 12%, 54%);
+  }
+  
+  .pointBtnActive {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+  }
+  .pointBtnHover {
+    background-color: hsl(217, 17%, 37%);
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .textContainer {
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .submitBtnInactive {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+  }
+  
+  .submitBtnHover {
+    background-color: hsl(25, 100%, 66%);
+    color: white;
+  }
+  
+  .submitButton {
+    border: none;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 100%;
+  }
